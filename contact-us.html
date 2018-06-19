@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
-    <title>Services</title>
+    <title>Contact Us</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,7 +43,7 @@
     </div>
     <!-- Page-->
     <div class="page">
-      <!-- Page header-->
+      <!-- Page Header-->
       <header class="section page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -89,7 +89,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="active"><a href="#">Pages<span></span><span></span><span></span><span></span></a>
+                    <li><a href="#">Pages<span></span><span></span><span></span><span></span></a>
                       <!-- RD Navbar Megamenu-->
                       <ul class="rd-navbar-megamenu">
                         <li>
@@ -137,7 +137,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact Us<span></span><span></span><span></span><span></span></a>
+                    <li class="active"><a href="contact-us.html">Contact Us<span></span><span></span><span></span><span></span></a>
                     </li>
                   </ul>
                 </div>
@@ -150,42 +150,87 @@
       <!-- Breadcrumbs-->
       <section class="breadcrumbs-custom bg-image" style="background-image: url(images/breadcrumbs-image.jpg);">
         <div class="shell">
-          <h1 class="breadcrumbs-custom__title">Services</h1>
+          <h1 class="breadcrumbs-custom__title">Contact Us</h1>
           <ul class="breadcrumbs-custom__path">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Pages</a></li>
-            <li class="active">Services</li>
+            <li class="active">Contact Us</li>
           </ul>
         </div>
       </section>
 
-      <!-- Services-->
+      <!-- Get in Touch-->
       <section class="section section-md bg-white text-center">
-        <div class="shell"> 
-          <!-- Box triangle-->
-          <article class="box-triangle"><a class="box-triangle__aside" href="single-service.html"> <img class="box-triangle__image" src="images/service-1-585x433.jpg" alt="" width="585" height="433"/></a>
-            <div class="box-triangle__main">
-              <p class="heading-1"><a href="single-service.html">Weddings</a></p>
-              <div class="box-info"> <span class="box-info__icon icon mdi mdi-clock"></span><span class="box-info__title">from $50\hour</span></div>
-              <p>Providing a wide range of wedding photography services, I will work with you to achieve the best possible result.</p><a class="button button-primary button-ujarak" href="single-service.html">book now</a>
+        <div class="shell">
+          <div class="range range-md-center">
+            <div class="cell-md-11 cell-lg-10">
+              <h2 class="text-bold">Get in Touch</h2>
+              <p><span class="box-width-2">We are available 24/7 by fax, e-mail or by phone. You can also use our quick contact form to ask a question about our services and projects.</span></p>
+              <div class="layout-columns"> 
+                <div class="layout-columns__main">
+                  <div class="layout-columns__main-inner">
+                    <!-- RD Mailform-->
+                    <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-date" type="text" data-time-picker="date" name="date" data-constraints="@Required">
+                        <label class="form-label" for="contact-date">Event Date</label>
+                      </div>
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                        <label class="form-label" for="contact-name">Your Name</label>
+                      </div>
+                      <div class="form-wrap">
+                        <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                        <label class="form-label" for="contact-email">E-mail</label>
+                      </div>
+                      <div class="form-wrap">
+                        <label class="form-label" for="contact-message">Your Message</label>
+                        <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                      </div>
+                      <div class="form-wrap form-button offset-1">
+                        <button class="button button-block button-primary-outline button-ujarak" type="submit">make an appointment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="layout-columns__aside">
+                  <div class="layout-columns__aside-item">
+                    <p class="heading-5">Socials</p>
+                    <div class="divider-modern"></div>
+                    <ul class="list-inline-xs">
+                      <li><a class="icon icon-md icon-gray-7 fa fa-facebook" href="#"></a></li>
+                      <li><a class="icon icon-md icon-gray-7 fa fa-twitter" href="#"></a></li>
+                      <li><a class="icon icon-md icon-gray-7 fa fa-google" href="#"></a></li>
+                      <li><a class="icon icon-md icon-gray-7 fa fa-youtube" href="#"></a></li>
+                    </ul>
+                  </div>
+                  <div class="layout-columns__aside-item">
+                    <p class="heading-5">Phone</p>
+                    <div class="divider-modern"></div>
+                    <div class="unit unit-horizontal unit-spacing-xxs">
+                      <div class="unit__left"><span class="icon icon-md icon-primary material-icons-local_phone"></span></div>
+                      <div class="unit__body"><a href="callto:#">1-800-1234-567</a></div>
+                    </div>
+                  </div>
+                  <div class="layout-columns__aside-item">
+                    <p class="heading-5">Address</p>
+                    <div class="divider-modern"></div>
+                    <div class="unit unit-horizontal unit-spacing-xxs">
+                      <div class="unit__left"><span class="icon icon-md icon-primary material-icons-location_on"></span></div>
+                      <div class="unit__body"><a href="#">267 Park Avenue New York, NY 90210</a></div>
+                    </div>
+                  </div>
+                  <div class="layout-columns__aside-item">
+                    <p class="heading-5">opening hours</p>
+                    <div class="divider-modern"></div>
+                    <div class="unit unit-horizontal unit-spacing-xxs">
+                      <div class="unit__left"><span class="icon icon-md icon-primary mdi mdi-clock"></span></div>
+                      <div class="unit__body"><span>We work every day 9:00–23:00</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </article>
-          <!-- Box triangle-->
-          <article class="box-triangle box-triangle_reverse"><a class="box-triangle__aside" href="single-service.html"><img class="box-triangle__image" src="images/service-2-585x433.jpg" alt="" width="585" height="433"/></a>
-            <div class="box-triangle__main">
-              <p class="heading-1"><a href="single-service.html">Children</a></p>
-              <div class="box-info"><span class="box-info__icon icon mdi mdi-clock"></span><span class="box-info__title">from $70\hour</span></div>
-              <p>Children’s photography is my second specialization and it includes newborn, baby and family photography.</p><a class="button button-primary button-ujarak" href="single-service.html">book now</a>
-            </div>
-          </article>
-          <!-- Box triangle-->
-          <article class="box-triangle"><a class="box-triangle__aside" href="single-service.html"><img class="box-triangle__image" src="images/service-3-585x433.jpg" alt="" width="585" height="433"/></a>
-            <div class="box-triangle__main">
-              <p class="heading-1"><a href="single-service.html">Fashion</a></p>
-              <div class="box-info"><span class="box-info__icon icon mdi mdi-clock"></span><span class="box-info__title">from $90\hour</span></div>
-              <p>If you are looking for a fashion photography professional, I’m the one who can get the job done.</p><a class="button button-primary button-ujarak" href="single-service.html">book now</a>
-            </div>
-          </article>
+          </div>
         </div>
       </section>
 
