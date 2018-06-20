@@ -6,3 +6,16 @@
 [0619/143130.856:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Access is denied. (0x5)
 [0619/143131.123:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Access is denied. (0x5)
 [0619/143131.201:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0620/114900.738:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/120029.781:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/121201.133:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/125305.291:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/131238.108:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/131527.396:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/134109.944:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/144428.400:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/150854.171:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/150854.573:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/151613.087:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/152701.295:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0620/154601.662:ERROR:crash_report_database_win.cc(428)] unexpected header
