@@ -19,3 +19,4 @@
 [0620/151613.087:ERROR:crash_report_database_win.cc(428)] unexpected header
 [0620/152701.295:ERROR:crash_report_database_win.cc(428)] unexpected header
 [0620/154601.662:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0621/110131.096:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Access is denied. (0x5)
